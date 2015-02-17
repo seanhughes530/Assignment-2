@@ -1,5 +1,7 @@
 body{
 	text-align: center;
+	border: solid;
+	border-width: 20px;
 }
 
 h1{
@@ -24,4 +26,28 @@ ul{
 	font-size: 1.5em;
 	line-height: 130%;
 	text-align: left;
+}
+
+a:link{
+	text-decoration: none;
+	color: black;
+}
+
+a:hover{
+	color: green;
+}
+
+.line{
+	height: 3px;
+	width: 80%;
+	background-color: black;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.source{
+	background-color: black;
+	color: white;
+	padding-top:25px;
+	padding-bottom: 25px;
 }
